@@ -2,7 +2,7 @@
 
 **A SQL-Based Analysis of Personal Physical Activity Across Different Life Stages**
 
-> **Project Proposal — V1**
+> **Project Proposal Version 1**
 
 | Project detail | Description |
 |---|---|
