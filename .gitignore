@@ -1,0 +1,13 @@
+# Private Apple Health data
+data/
+*.csv
+*.xml
+*.zip
+
+# Local SQLite databases
+*.db
+*.sqlite
+*.sqlite3
+
+# Apple Health workout routes
+workout-routes/
