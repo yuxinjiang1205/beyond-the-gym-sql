@@ -56,7 +56,7 @@ The analysis will primarily compare daily active calories, with daily step count
 
 The three principal life stages are:
 
-- **Canada:** Full-time retail sales employment, prolonged standing, and frequent gym attendance.
+- **Canada:** Full-time retail sales associate, prolonged standing, and frequent gym attendance.
 - **Taiwan:** Part-time English teaching, followed by a period without employment, alongside regular gym attendance.
 - **Scotland:** Postgraduate studies, regular gym attendance, and changing weekday and weekend routines.
 
