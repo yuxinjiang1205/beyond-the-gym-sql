@@ -16,6 +16,8 @@ This project builds upon my previous statistical portfolio that investigated whe
 
 Beyond gym attendance, the analysis explores how travel, employment, postgraduate studies, and major lifestyle changes relate to daily physical activity. The aim is to apply SQL to a real-world personal dataset, from data validation and preparation to exploratory analysis and interpretation.
 
+The data was collected from the 6th of September, 2024, which was the date I started using Apple Watch, to the 27th of October, 2026. This peroid spans from life in Canada, Taiwan, and Scotland.
+
 ## 2. Primary Research Question
 For this project, I propose the following 4 research questions:
 ### RQ1 — Gym Attendance and Daily Active Calories
@@ -74,14 +76,30 @@ The analysis will examine weekly workout frequency, workout duration, and trends
 
 Two CSV datasets have already been extracted from Apple Health:
 
-| Dataset | Records | Main Variables |
-|---|---:|---|
-| `workouts.csv` | 545 | Date, workout type, duration, workout active calories |
-| `daily_activity.csv` | 781 | Date, daily active calories, exercise minutes |
+### 3.1 Workout Dataset
 
-Additional daily step-count data may be extracted if appropriate.
+| Selected Column       | XML Source        | Purpose                                                   |
+| --------------------- | ----------------- | --------------------------------------------------------- |
+| `startDate`           | Workout           | Identify workout dates and times                          |
+| `workoutActivityType` | Workout           | Identify workout categories                               |
+| `duration`            | Workout           | Measure workout duration                                  |
+| `durationUnit`        | Workout           | Identify duration units                                   |
+| `active_calories`     | WorkoutStatistics | Measure active calories burned during individual workouts |
+| `calorie_unit`        | WorkoutStatistics | Identify energy units                                     |
 
-A small supplementary table will be created to identify travel periods and major life stages using known dates.
+The `active_calories` value was extracted from the `sum` attribute of the `WorkoutStatistics` element with the type `HKQuantityTypeIdentifierActiveEnergyBurned`. Heart-rate and basal-energy statistics were excluded because they were not required to answer the current research questions.
+
+### 3.2 Daily Activity Dataset
+
+| Selected Column          | XML Source      | Purpose                                  |
+| ------------------------ | --------------- | ---------------------------------------- |
+| `dateComponents`         | ActivitySummary | Identify observation dates               |
+| `activeEnergyBurned`     | ActivitySummary | Measure daily active calorie expenditure |
+| `activeEnergyBurnedUnit` | ActivitySummary | Identify energy units                    |
+| `appleExerciseTime`      | ActivitySummary | Examine daily exercise minutes           |
+| `appleStandHours`        | ActivitySummary | Examine daily stand-hour patterns        |
+
+Exercise minutes and stand hours were retained to support comparisons across different lifestyle periods. Activity goal-related attributes were excluded because the study focused on actual activity measurements rather than goal achievement.
 
 ## 4. Proposed Analytical Workflow
 
