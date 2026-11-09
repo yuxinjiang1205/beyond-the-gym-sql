@@ -44,7 +44,7 @@ Gym attendance will initially be identified using Apple Health's Traditional Str
 Three travel periods will be considered:
 
 - **4–17 December 2024:** France and London.
-- **2–22 April 2025:** Italy.
+- **6–22 April 2025:** Italy.
 - **25 September–7 October 2026:** London and other travel with family.
 
 The analysis will primarily compare daily active calories, with daily step counts included if reliable data can be prepared.
