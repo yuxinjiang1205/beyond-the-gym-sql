@@ -1,9 +1,8 @@
 # RQ1: Gym Days vs Non-Gym Days — Daily Active Calorie Expenditure
 
-**Version:** 2 (Draft)  
+**Version:** 2 
 **Author:** Peter Jiang (Yuxin Jiang)  
 **Analysis Status:** Completed  
-**Documentation Status:** Under Review
 
 ---
 
