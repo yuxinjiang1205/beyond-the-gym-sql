@@ -2,7 +2,7 @@
 
 **Version:** 2 (Draft)  
 **Author:** Peter Jiang (Yuxin Jiang)  
-**Analysis Status:** Working  
+**Analysis Status:** Completed  
 **Documentation Status:** Under Review
 
 ---
@@ -67,7 +67,7 @@ Distinct strength-training dates were extracted from `workouts_analysis` and joi
 
 ### 2.4 Data Integration
 
-Common Table Expressions (CTEs) were used to prepare and integrate the datasets. The analysis developed four CTEs:
+Common Table Expressions (CTEs) were used to prepare and integrate the datasets and produce the final statistical summary. The completed query uses six CTEs:
 
 | CTE | Purpose |
 |---|---|
@@ -75,6 +75,8 @@ Common Table Expressions (CTEs) were used to prepare and integrate the datasets.
 | `gym_date` | Extract distinct Traditional Strength Training dates |
 | `joined_table` | Integrate travel, gym, and daily activity classifications |
 | `table_for_median` | Rank Non-Gym observations and calculate group sizes for median analysis |
+| `mean_summary` | Calculate observation counts and mean daily active calories by travel group |
+| `median_summary` | Calculate median daily active calories by travel group |
 
 The `LEFT JOIN` operation preserved all recorded daily activity observations while identifying dates with corresponding strength-training records. The resulting dataset contained:
 
@@ -164,6 +166,10 @@ For the current comparison:
 | Non-Gym Travel Days | 43 | 22 |
 
 Both groups contained an odd number of observations.
+
+### 3.3 Final Statistical Summary
+
+The final SQL query combined the `mean_summary` and `median_summary` CTEs using `travel_day` as the join key. The resulting table reports the observation count, mean, and median for each Non-Gym comparison group. Mean and median values were rounded to two decimal places for presentation, while the calculations were performed on the original recorded values.
 
 ---
 
@@ -276,9 +282,11 @@ The findings suggest that physical activity outside structured strength-training
 
 ## 8. RQ2 Completion Status
 
-**Status: Core Analysis Completed — Documentation Version 1 (Draft)**
+**Analysis Status: Completed**  
+**SQL Script: Organised and Uploaded**  
+**Documentation: Version 2 (Draft) — Under Review**
 
-The following analyses were successfully conducted using SQLite:
+The following analyses were completed using SQLite:
 
 - Classification of three predefined extended travel periods.
 - Integration of Travel Day and Gym Day classifications.
@@ -286,16 +294,10 @@ The following analyses were successfully conducted using SQLite:
 - Identification of the two RQ2 comparison groups.
 - Mean daily active calorie comparison.
 - Median calculation using `ROW_NUMBER()` and `COUNT() OVER()`.
-- Interpretation of descriptive findings.
-- Identification of methodological limitations.
+- Consolidation of observation counts, means, and medians into a final SQL summary table.
+- Interpretation of descriptive findings and methodological limitations.
 
-The core analysis provides a descriptive answer to RQ2.
-
-### Remaining Tasks
-
-1. Consolidate observation counts, means, and medians into one final SQL summary table.
-2. Save and organise the final RQ2 SQL script.
-3. Review and finalise the RQ2 documentation.
+The completed analysis provides a descriptive answer to RQ2. The final SQL script has been organised and uploaded; the documentation remains under review before finalisation.
 
 ### Potential Extensions
 
