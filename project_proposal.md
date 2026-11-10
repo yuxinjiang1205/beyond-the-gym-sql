@@ -10,13 +10,17 @@
 | Data Source | Apple Health |
 | Study Period | 6 September 2024 – 27 October 2026 |
 
-## 1. Project Background
+## 1. Project Background and Motivation
 
-This project builds upon my previous statistical portfolio that investigated whether attending the gym was associated with higher daily calorie expenditure. The original study used 15 daily observations and R (Studio) for statistical analysis. This project expands the investigation using approximately two years of Apple Health activity records collected while living in Canada, Taiwan, and Scotland.
+Fitness has long been an important part of my lifestyle, particularly strength training, which I have consistently incorporated into my daily routine. However, during 2024 and 2025, I occasionally felt guilty when travelling or other commitments prevented me from attending the gym. At the time, I strongly associated regular gym attendance with maintaining my physique and staying physically active.
 
-Beyond gym attendance, the analysis explores how travel, employment, postgraduate studies, and major lifestyle changes relate to daily physical activity. The aim is to apply SQL to a real-world personal dataset, from data validation and preparation to exploratory analysis and interpretation.
+This personal experience led me to question an assumption I had rarely examined: **How much does gym attendance actually contribute to my daily active calorie expenditure, and could my activity levels remain relatively high even on days without a recorded gym session?** Rather than relying solely on personal expectations, I wanted to examine whether my recorded physical activity patterns supported these assumptions.
 
-The data was collected from the 6th of September, 2024, which was the date I started using Apple Watch, to the 27th of October, 2026. This peroid spans from life in Canada, Taiwan, and Scotland.
+This project builds upon my previous statistical portfolio, which investigated the relationship between gym attendance and daily calorie expenditure using 15 daily observations and R for statistical analysis. The current project significantly expands that investigation by using approximately two years of Apple Health data collected through my Apple Watch.
+
+The dataset spans three distinct periods of my life in Canada, Taiwan, and Scotland, during which my employment, academic responsibilities, travel experiences, and daily routines varied considerably. These changing circumstances provide an opportunity to explore how gym attendance and other aspects of everyday life are associated with daily physical activity.
+
+Using SQL as the primary analytical tool, *Beyond the Gym* aims to investigate whether my perceptions of physical activity align with the patterns observed in my personal data. The purpose is not to diminish the broader benefits of regular exercise, but to develop a more evidence-based understanding of how physical activity extends beyond structured gym sessions.
 
 ## 2. Primary Research Question
 For this project, I propose the following 4 research questions:
