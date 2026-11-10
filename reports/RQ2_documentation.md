@@ -256,11 +256,11 @@ As a result, the analysis included 44 recorded Travel Days rather than the full 
 
 All available daily active calorie observations were retained without modification, including zero and potentially unusual values identified during the Data Quality Assessment. The missing observation and unusual recorded values may influence the descriptive statistics.
 
-### 6.4 Observational Study Design
+### 6.4 Observational Study Design and Generalisability
 
-This analysis uses observational Apple Health data collected from a single individual. The comparison does not control for every factor that may influence daily active calorie expenditure, including differences in routines and other physical activities. Therefore, the findings describe an association between the selected travel periods and higher daily active calorie expenditure rather than establishing a direct causal effect of travel.
+This analysis is based on my personal Apple Health data, reflecting my individual lifestyle, travel experiences, and physical activity patterns. As the dataset represents only one individual, the findings are specific to my personal circumstances and cannot be generalised to broader populations.
 
-No inferential statistical testing was conducted for RQ2. The results should be interpreted as descriptive findings within the available personal dataset.
+Furthermore, the analysis is observational and does not establish a causal relationship between travel and daily active calorie expenditure. No inferential statistical testing was conducted, as the primary objective was to explore and describe patterns within my own activity data.
 
 ---
 
