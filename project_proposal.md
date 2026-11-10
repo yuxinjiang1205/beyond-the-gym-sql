@@ -124,31 +124,19 @@ This stage will involve:
 
 ### Stage 2 — Data Quality Assessment
 
-Once the datasets are understood, their quality and suitability for analysis will be evaluated.
-
-This stage will examine potential issues such as missing values, duplicate records, inconsistent dates, unexpected numerical values, and gaps in data coverage.
-
-Particular attention will be given to the reliability of workout records as indicators of gym attendance and the availability of daily activity measurements.
+Once the datasets are understood, their quality and suitability for analysis will be evaluated. This stage will examine potential issues such as missing values, duplicate records, inconsistent dates, unexpected numerical values, and gaps in data coverage. Particular attention will be given to the reliability of workout records as indicators of gym attendance and the availability of daily activity measurements.
 
 **Objective:** Identify data quality issues and establish which observations can be used reliably in subsequent analyses.
 
 ### Stage 3 — Data Preparation and Integration
 
-Following the quality assessment, the datasets will be prepared for analysis.
-
-Individual workout records will be summarised at the daily level where necessary, allowing them to be integrated appropriately with daily activity data.
-
-Additional contextual information, including travel periods and major lifestyle changes, will be incorporated using clearly defined date ranges.
-
-Any transformations, exclusions, or assumptions will be documented to maintain transparency and reproducibility.
+Following the quality assessment, the datasets will be prepared for analysis. Individual workout records will be summarised at the daily level where necessary, allowing them to be integrated appropriately with daily activity data. Additional contextual information, including travel periods and major lifestyle changes, will be incorporated using clearly defined date ranges. Any transformations, exclusions, or assumptions will be documented to maintain transparency and reproducibility.
 
 **Objective:** Produce a consistent analytical dataset that supports comparisons between gym and non-gym days and across different lifestyle contexts.
 
 ### Stage 4 — Research-Driven Exploratory Analysis
 
-SQL will be used to investigate the research questions established in this proposal.
-
-The analysis will focus on four areas:
+SQL will be used to investigate the research questions established in this proposal. The analysis will focus on four areas:
 
 1. **Gym Attendance:** Comparing daily active calorie expenditure between gym and non-gym days.
 2. **Travel Behaviour:** Examining whether non-gym days during extended travel periods differ from ordinary non-gym days.
@@ -161,11 +149,7 @@ Analytical methods and SQL techniques will be selected according to the requirem
 
 ### Stage 5 — Interpretation and Documentation
 
-The findings will be evaluated in relation to the original research questions and hypotheses.
-
-Interpretation will consider relevant limitations, including incomplete activity records, differences in lifestyle circumstances, and the inability to establish causal relationships from observational data alone.
-
-The final project will document its methodology, SQL queries, analytical findings, and limitations in a GitHub repository.
+The findings will be evaluated in relation to the original research questions and hypotheses. Interpretation will consider relevant limitations, including incomplete activity records, differences in lifestyle circumstances, and the inability to establish causal relationships from observational data alone. The final project will document its methodology, SQL queries, analytical findings, and limitations in a GitHub repository.
 
 **Objective:** Present a transparent, reproducible, and clearly communicated analysis suitable for a professional data analytics portfolio.
 
