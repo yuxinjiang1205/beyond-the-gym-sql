@@ -2,8 +2,7 @@
 
 **Version:** 2 (Draft)  
 **Author:** Peter Jiang (Yuxin Jiang)  
-**Analysis Status:** Completed  
-**Documentation Status:** Under Review
+**Analysis Status:** Completed 
 
 ---
 
@@ -277,33 +276,3 @@ The analysis found that Non-Gym Days during the three predefined extended travel
 The median comparison supported the same pattern. The Travel Group recorded a median of **541.09 kcal**, compared with **393.62 kcal** for the Non-Travel Group, representing a difference of approximately **147.47 kcal (37.5%)**. Both measures of central tendency support the primary hypothesis that Non-Gym Days during the selected extended travel periods were associated with higher daily active calorie expenditure.
 
 The findings suggest that physical activity outside structured strength-training sessions, particularly during travel, can contribute substantially to recorded daily active energy expenditure. Overall, RQ2 extends the findings of RQ1 by demonstrating that differences in activity context are associated with meaningful variations in daily active calories, even among days without recorded gym activity. This provides further insight into the broader purpose of *Beyond the Gym*: examining how physical activity is distributed across different aspects of everyday life.
-
----
-
-## 8. RQ2 Completion Status
-
-**Analysis Status: Completed**  
-**SQL Script: Organised and Uploaded**  
-**Documentation: Version 2 (Draft) — Under Review**
-
-The following analyses were completed using SQLite:
-
-- Classification of three predefined extended travel periods.
-- Integration of Travel Day and Gym Day classifications.
-- Validation of Gym Day and Non-Gym Day observation counts.
-- Identification of the two RQ2 comparison groups.
-- Mean daily active calorie comparison.
-- Median calculation using `ROW_NUMBER()` and `COUNT() OVER()`.
-- Consolidation of observation counts, means, and medians into a final SQL summary table.
-- Interpretation of descriptive findings and methodological limitations.
-
-The completed analysis provides a descriptive answer to RQ2. The final SQL script has been organised and uploaded; the documentation remains under review before finalisation.
-
-### Potential Extensions
-
-Further analysis could examine:
-
-- The inclusion of shorter trips through a sensitivity analysis.
-- Differences between Non-Gym Travel Days and Non-Travel Gym Days.
-
-These extensions are outside the scope of the current primary RQ2 analysis. The completed analysis provides a foundation for subsequent research questions examining physical activity across different life stages and lifestyle events.
