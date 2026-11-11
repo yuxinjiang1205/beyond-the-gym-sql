@@ -228,32 +228,3 @@ RQ1 investigated whether Gym Days recorded higher daily active calorie expenditu
 Variability analysis revealed that Gym Days exhibited slightly greater absolute dispersion, while Non-Gym Days demonstrated greater relative dispersion. An additional analysis identified **60 Non-Gym Days (21.43%)** with daily active calorie expenditure exceeding the Gym Day median. These findings suggest that although recorded strength-training activity is associated with higher daily active calorie expenditure, substantial physical activity can also occur on days without gym attendance.
 
 Overall, RQ1 supports the primary research hypothesis while highlighting the importance of considering physical activity beyond structured exercise. The findings establish a foundation for subsequent research questions exploring how travel, daily routines, and different life circumstances relate to recorded active calorie expenditure.
-
----
-
-## 8. RQ1 Completion Status
-
-**Analysis Status: Completed**  
-**Documentation: Version 2 (Draft)**
-
-The following analyses were completed using SQLite:
-
-- Gym Day and Non-Gym Day classification.
-- Mean and median daily active calorie comparisons.
-- Sample variance and standard deviation calculations.
-- Coefficient of variation comparison.
-- Identification of high-activity Non-Gym Days.
-- Calculation of the percentage of Non-Gym Days exceeding the Gym Day median.
-- Exploratory examination of temporal patterns.
-
-The analysis provides a descriptive answer to RQ1 and establishes a foundation for subsequent investigations into physical activity beyond structured strength training.
-
-### Potential Extensions
-
-Further analysis could examine:
-
-- Distribution shapes and skewness.
-- Differences in physical activity across geographical locations.
-- The relationship between extended travel periods and daily active calorie expenditure.
-
-These investigations fall outside the scope of the completed RQ1 analysis and may be addressed through subsequent research questions.
