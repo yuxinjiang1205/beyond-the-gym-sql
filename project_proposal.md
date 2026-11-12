@@ -1,6 +1,6 @@
 # Beyond the Gym: A SQL-Based Analysis of Personal Physical Activity Across Different Life Stages
 
-> **Project Proposal Version 2 - 10/11/2026**
+> **Project Proposal Version 3 - 12/11/2026**
 
 | Project detail | Description |
 |---|---|
@@ -63,18 +63,36 @@ The three principal life stages are:
 - **Taiwan:** Part-time English teaching, followed by a period without employment, alongside regular gym attendance.
 - **Scotland:** Postgraduate studies, regular gym attendance, and changing weekday and weekend routines.
 
-The analysis will explore differences in workout frequency, daily active calories, and activity patterns. These comparisons will be interpreted as differences between life stages rather than effects caused by different countries.
+The analysis examines physical activity patterns across the three life stages through four main objectives:
 
-### RQ4 — Dissertation and Relocation Case Study
+1. Comparing mean and median daily active calorie expenditure.
+2. Comparing the percentage of recorded days containing Traditional Strength Training activity.
+3. Comparing mean and median strength-training duration per training day.
+4. Examining monthly variations in daily active calorie expenditure, strength-training frequency, and mean training duration.
 
-**How did workout frequency and daily physical activity change during the dissertation and relocation periods?**
+These comparisons are descriptive and are interpreted as differences between life stages rather than effects caused by different countries or individual lifestyle factors.
 
-Two major events will be examined:
+### RQ4 — Dissertation and Physical Activity
 
-- **Late June–August 2026:** High-stress dissertation period.
-- **Late August–early September 2026:** Moving home and a temporary interruption of gym attendance.
+**How did strength-training behaviour and daily physical activity differ between the early and intensive dissertation periods?**
 
-The analysis will examine weekly workout frequency, workout duration, and trends in daily activity. Findings will describe observed changes without assuming that academic stress or relocation directly caused them.
+This research question examines changes in physical activity during two stages of my MSc dissertation:
+
+| Dissertation Period | Start Date | End Date | Calendar Days |
+|---|---|---|---:|
+| Early Dissertation Period | 2026-05-01 | 2026-06-29 | 60 |
+| Intensive Dissertation Period | 2026-06-30 | 2026-08-28 | 60 |
+
+The period boundaries were informed by documented academic milestones. A substantial methodological revision took place on 30 June 2026, marking the beginning of a more intensive phase of dissertation work. Further significant feedback on the written dissertation was received on 12 August 2026, followed by the formal submission on 28 August 2026.
+
+The analysis will investigate four aspects of physical activity:
+
+1. **Strength-Training Frequency:** Comparing the percentage of recorded days containing Traditional Strength Training activity.
+2. **Workout Duration:** Comparing mean and median strength-training duration per recorded training day.
+3. **Workout-specific Active Calories:** Examining differences in active calorie expenditure recorded during strength-training workouts.
+4. **Daily Active Calories:** Comparing overall daily active calorie expenditure between the two periods.
+
+The analysis aims to determine whether changes in recorded strength-training behaviour were accompanied by differences in overall daily activity. The findings will be interpreted descriptively, without assuming that academic workload or perceived stress directly caused the observed changes.
 
 ## 3. Available Data
 
@@ -141,7 +159,7 @@ SQL will be used to investigate the research questions established in this propo
 1. **Gym Attendance:** Comparing daily active calorie expenditure between gym and non-gym days.
 2. **Travel Behaviour:** Examining whether non-gym days during extended travel periods differ from ordinary non-gym days.
 3. **Life Stages:** Exploring physical activity patterns across periods of living in Canada, Taiwan, and Scotland.
-4. **Lifestyle Changes:** Investigating changes in workout frequency and daily activity during the dissertation and relocation periods.
+4. **Dissertation and Physical Activity:** Comparing strength-training behaviour, workout-specific active calories, and daily activity between the early and intensive dissertation periods.
 
 Analytical methods and SQL techniques will be selected according to the requirements of each research question rather than predetermined solely to demonstrate specific SQL functions.
 
@@ -153,9 +171,17 @@ The findings will be evaluated in relation to the original research questions an
 
 **Objective:** Present a transparent, reproducible, and clearly communicated analysis suitable for a professional data analytics portfolio.
 
-## 5. Optional Extension
+## 5. Optional Extensions
 
-### Bayesian Analysis
+### 5.1 Relocation and Physical Activity
+
+A further analysis may investigate changes in strength-training behaviour and daily physical activity during the relocation from Stirling to Glasgow in August–October 2026.
+
+This period involved several residential transitions, temporary changes in gym access, and adjustments to daily routines. Future analysis could examine changes in recorded strength-training frequency and daily active calorie expenditure during selected relocation periods.
+
+This extension is not required to complete the four primary research questions and will only be undertaken if it provides meaningful additional insights.
+
+### 5.2 Bayesian Analysis
 
 A simple Bayesian analysis may be added if it provides meaningful insight beyond the SQL exploratory analysis. It is not a mandatory component of the project.
 
