@@ -1,6 +1,6 @@
 # RQ2: Extended Travel vs Non-Travel Periods — Daily Active Calorie Expenditure on Non-Gym Days
 
-**Version:** 2 (11/11/2026)  
+**Version:** 2  
 **Author:** Peter Jiang (Yuxin Jiang)  
 **Last Updated:** 13/11/2026  
 
