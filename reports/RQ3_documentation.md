@@ -185,6 +185,6 @@ These findings suggest that strength-training frequency alone is not enough to d
 
 ## 7. Conclusion
 
-The analysis identified distinct physical activity patterns across the three life stages. Canada recorded the highest daily active calorie expenditure and longest strength-training duration, whereas Taiwan demonstrated the highest training frequency despite having the lowest overall daily activity levels. Scotland showed greater monthly variation, with training frequency and daily active calorie expenditure following different patterns.
+RQ3 showed different physical activity patterns across the three life stages. Canada recorded the highest daily active calorie expenditure and longest average strength-training duration, while Taiwan had the highest training frequency despite recording the lowest daily active calories. Scotland also showed changes in activity patterns across different months, where training frequency and daily active calories did not always follow the same trend.
 
-These findings highlight that strength-training frequency alone does not fully represent physical activity patterns. Considering training duration alongside daily active calorie expenditure provides a more comprehensive understanding of how recorded activity differed across life stages.
+Overall, the results showed that attending the gym more frequently did not necessarily mean having higher daily active calorie expenditure. By considering training frequency, workout duration, and daily active calories together, I gained a clearer understanding of how my physical activity patterns changed across different stages of my life.
