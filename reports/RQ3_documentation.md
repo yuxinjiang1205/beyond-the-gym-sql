@@ -138,44 +138,49 @@ Overall, the results demonstrate that differences in strength-training frequency
 
 ### 5.1 Canada: High Daily Activity and Longer Training Duration
 
-Canada recorded the highest daily active calorie expenditure and longest strength-training duration, despite having a considerably lower training-day percentage than Taiwan.
+Canada recorded the highest daily active calorie expenditure and the longest average strength-training duration, although its training frequency was considerably lower than Taiwan's.
 
-The physically active retail environment and walking-based daily routines described in Section 2.2 may help explain the higher overall activity levels. Meanwhile, the longer recorded training durations were consistent with personal recollections of extended gym sessions. However, the contributions of occupational movement, walking, and structured exercise cannot be quantified separately.
+During my time in Canada, I worked in retail, which required frequent standing and walking. Walking was also an important part of my daily routine, including commuting to work, grocery shopping, and going to the gym. These activities may help explain the higher daily active calorie expenditure.
+
+The longer recorded training durations were also consistent with my personal recollections of spending more time at the gym. However, the available data cannot determine how much each activity contributed to the overall calorie expenditure.
 
 ### 5.2 Taiwan: High Training Frequency but Lower Daily Activity
 
-Taiwan recorded the highest strength-training frequency but the lowest daily active calorie expenditure. This contrast suggests that frequent structured exercise did not necessarily correspond to higher overall daily activity.
+Taiwan recorded the highest strength-training frequency but the lowest mean daily active calorie expenditure. This was an interesting contrast, as attending the gym more frequently did not necessarily mean having higher daily active calories.
 
-The combination of home-based study, shorter working hours, and convenient transport provides a plausible contextual explanation for reduced movement outside structured exercise. Despite the higher training frequency, median training duration remained close to 60 minutes, similar to Scotland.
+During this period, I worked fewer hours, spent more time studying at home, and generally had shorter daily journeys. These differences in my daily routine may help explain the lower activity levels outside the gym, although their individual contributions were not measured.
+
+Despite the higher training frequency, the median training duration remained close to 60 minutes, which was similar to Scotland.
 
 ### 5.3 Scotland: Changing Activity Patterns During Postgraduate Study
 
-Scotland recorded a strength-training day percentage similar to Canada, although its training durations and daily active calorie expenditure were lower. Monthly results also revealed substantial variation throughout the stage.
+Scotland recorded a strength-training frequency similar to Canada, but its training durations and daily active calorie expenditure were lower. The monthly analysis also showed considerable changes throughout this life stage.
 
-Lower activity levels during July and August 2026 coincided with dissertation commitments and changes in everyday routines. Daily active calorie expenditure subsequently increased in September and October, despite lower training frequency. Relocation, travel, and changes in walking opportunities provide possible explanations, but their individual effects cannot be established from the available data.
+Daily active calorie expenditure was relatively low during July and August 2026, which coincided with my dissertation work and changes in my daily routine. However, daily active calories increased in September and October, even though recorded strength-training frequency was lower.
+
+Moving to Glasgow, travelling, and changes in everyday walking may help explain these differences. However, the analysis cannot determine how much each factor contributed to the changes.
 
 ### 5.4 Frequency, Duration, and Overall Activity
 
-The comparisons demonstrate that strength-training frequency, training duration, and daily active calorie expenditure capture different aspects of physical activity.
+The results showed that strength-training frequency, workout duration, and daily active calorie expenditure did not always follow the same patterns.
 
-Canada combined longer recorded training durations with higher daily active calorie expenditure, while Taiwan maintained the highest training frequency despite lower overall activity levels. Scotland further illustrated how daily activity could vary independently of recorded training frequency.
+Canada recorded longer training durations and higher daily active calories, while Taiwan had the highest training frequency but the lowest daily active calories. Scotland also showed that daily active calorie expenditure could change even when strength-training frequency was relatively low.
 
-Taken together, these findings support a multidimensional approach to describing physical activity rather than relying on strength-training frequency alone.
+These findings suggest that strength-training frequency alone is not enough to describe my overall daily activity patterns. Workout duration and daily active calorie expenditure also need to be considered.
 
 ---
 
 ## 6. Limitations
 
-**Observational Study Design:** This analysis examines my activity records across three life stages. The findings are descriptive and cannot establish causal relationships or be generalised to wider populations.
+**Observational Study Design:** This analysis was based on my personal Apple Health records across three life stages. The results describe differences in my activity patterns, but they cannot establish causal relationships. In addition, the findings may not be representative of individuals with different lifestyles.
 
-**Unequal Observation Periods:** The three life stages differ in duration and sample size. Although averages and percentages account for observation counts, differences in seasonal coverage and incomplete months may affect comparisons.
+**Unequal Observation Periods:** The three life stages covered different lengths of time and numbers of observations. Although averages and percentages were used for comparison, differences in seasonal coverage and incomplete months may have affected the results.
 
-**Measurement and Classification:** Apple Health active calorie expenditure represents an estimated measurement. Recorded Traditional Strength Training activity does not necessarily reflect every gym visit, while workout duration does not indicate training intensity.
+**Measurement and Classification:** Daily active calories recorded by Apple Health are estimated values. Traditional Strength Training records were used to identify training days, but they may not capture every gym visit. In addition, recorded workout duration does not directly measure training intensity.
 
-**Workout Duration Aggregation:** Multiple strength-training recordings on the same date were combined to calculate daily duration. Potential overlap between recording periods was not independently verified, which could result in overestimated training durations.
+**Workout Duration Aggregation:** Some dates contained multiple strength-training records, so their durations were added together to calculate daily training duration. However, potential overlaps between workout records were not independently checked. This may have resulted in overestimated training durations.
 
-**Contextual Interpretation:** Explanations involving employment, study, commuting, and lifestyle changes were informed by personal recollections rather than independently measured activity categories. Travel periods were also retained within their respective life stages, potentially influencing the observed patterns.
-
+**Contextual Interpretation:** My explanations about employment, study, commuting, and lifestyle changes were based on personal recollections rather than directly measured activities. Travel periods were also included within their respective life stages, which may have influenced the observed results.
 ---
 
 ## 7. Conclusion
