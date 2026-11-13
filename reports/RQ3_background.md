@@ -1,6 +1,6 @@
 # RQ3 — Physical Activity Across Different Life Stages: Contextual Background
 
-**Project:** Beyond the Gym — SQL Data Analytics Portfolio  
+**Version:** 2  
 **Author:** Peter Jiang (Yuxin Jiang)  
 **Last Updated:** 13/11/2026  
 
