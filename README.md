@@ -56,3 +56,48 @@ The analysis compared two 60-day periods:
 - **Intensive Dissertation:** 30 June–28 August 2026.
 
 The comparison focused on recorded strength-training behaviour and daily active calorie expenditure.
+
+---
+
+## 3. Tools & Analytical Methods
+
+### 3.1 Tools Used
+
+Python was used to inspect the original Apple Health XML file and extract relevant data into two CSV datasets: workout records and daily activity summaries.
+
+SQLite was the main database used throughout this project for data analysis, while DBeaver was used to write and execute SQL queries.
+
+### 3.2 Data Processing and SQL Analysis
+
+During the data inspection stage, Python was used to examine the XML structure and identify relevant attributes. After selecting the required variables, two CSV datasets were extracted and filtered to match the study period before being imported into SQLite.
+
+Before conducting the main analysis, data quality checks were performed to identify missing values, duplicate records, date discrepancies, and inconsistent measurement units.
+
+For RQ1–RQ4, SQL techniques including Common Table Expressions (CTEs), LEFT JOINs, CASE expressions, aggregate functions, and window functions were used to classify observations, compare different groups, and calculate descriptive statistics.
+
+---
+
+## 4. Key Findings
+
+The four research questions revealed several findings about the relationship between recorded strength training and overall daily active calorie expenditure.
+
+| Research Question | Key Findings |
+|---|---|
+| **RQ1 — Gym Attendance** | Gym Days recorded approximately **41.0% higher mean daily active calorie expenditure** than Non-Gym Days. However, **21.43% of Non-Gym Days** exceeded the Gym Day median. |
+| **RQ2 — Extended Travel** | Non-Gym Days during the selected extended travel periods recorded **22.5% higher mean daily active calorie expenditure** than other Non-Gym Days. |
+| **RQ3 — Life Stages** | Canada recorded the highest mean daily active calorie expenditure (**814.29 kcal**), while Taiwan recorded the lowest (**430.73 kcal**), despite having the highest strength-training frequency (**84.14%**). |
+| **RQ4 — Dissertation Periods** | Mean daily active calorie expenditure decreased by **9.46%** during the Intensive Dissertation period, while differences in recorded strength-training frequency and duration were relatively modest. |
+
+Overall, the findings suggest that although recorded strength training is associated with higher daily active calorie expenditure, gym attendance alone does not fully represent daily physical activity patterns. Activities outside the gym and differences in daily routines should also be considered when interpreting overall activity levels.
+
+For a more detailed discussion of the results, see the [Project Overall Conclusion](reports/project_overall_conclusion.md).
+
+---
+
+## 5. Repository Structure
+
+The repository is organised into the following folders and files:
+
+- **[`sql_scripts/`](sql_scripts/)** — Contains SQL scripts for data quality checks and analyses of RQ1–RQ4.
+- **[`reports/`](reports/)** — Contains data inspection, data quality assessment, research documentation, and the [Overall Project Conclusion](reports/project_overall_conclusion.md).
+- **[`project_proposal.md`](project_proposal.md)** — Outlines the research background, objectives, and study design.
