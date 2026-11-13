@@ -20,53 +20,39 @@ This project addresses the following four research questions:
 
 **Do gym days have higher average daily active calorie expenditure than non-gym days?**
 
-This is the primary research question of the project. The objective was to compare daily active calories between days with and without recorded gym attendance.
+The analysis compared daily active calorie expenditure between Gym Days and Non-Gym Days, identified using Apple Health's Traditional Strength Training records.
 
-The analysis examined:
-
-- Differences in mean and median daily active calories.
-- Variation in activity levels between the two groups (Gym Days and Non-Gym Days).
-- Whether some Non-Gym Days exceeded typical Gym Day activity levels.
-
-Gym Days were identified using Apple Health's Traditional Strength Training records rather than independently verified gym attendance.
-
-**Note:** I joined a gym in Canada around 28 September 2024, so RQ1 used records from that date onwards.
+**Note:** I joined a gym in Canada around 28 September 2024, so the analysis used records from that date onwards.
 
 ### RQ2 — Travel and Physical Activity
 
 **Do non-gym days during extended travel periods have higher daily activity levels than ordinary non-gym days?**
 
-Three extended travel periods were examined:
+The analysis compared Non-Gym Days during three selected extended travel periods with other Non-Gym Days:
 
 - **4–17 December 2024:** France and London.
 - **6–22 April 2025:** Italy.
 - **25 September–8 October 2026:** London and other travel with family.
 
-The analysis compared daily active calorie expenditure between Non-Gym Days during these selected travel periods and other Non-Gym Days.
-
 ### RQ3 — Physical Activity Across Different Life Stages
 
 **How did physical activity patterns differ across periods of living in Canada, Taiwan, and Scotland?**
 
-The three principal life stages were:
+The analysis examined three life stages with different daily routines and responsibilities:
 
-- **Canada:** Full-time retail sales associate, prolonged standing, and frequent gym attendance.
-- **Taiwan:** Part-time English teaching, followed by a period without employment, alongside regular gym attendance.
-- **Scotland:** Postgraduate studies, regular gym attendance, and changing weekday and weekend routines.
+- **Canada:** Full-time retail employment.
+- **Taiwan:** Part-time English teaching and a period without employment.
+- **Scotland:** Postgraduate studies in Artificial Intelligence.
 
-The analysis explored differences in strength-training frequency, workout duration, daily active calorie expenditure, and monthly activity patterns.
-
-These comparisons were interpreted as differences between life stages rather than effects caused by different countries.
+The comparisons focused on observed differences between life stages rather than causal effects of living in different countries.
 
 ### RQ4 — Dissertation and Physical Activity
 
 **How did strength-training behaviour and daily physical activity differ between the early and intensive dissertation periods?**
 
-Two dissertation periods were examined:
+The analysis compared two 60-day periods:
 
-- **Early Dissertation Period:** 1 May–29 June 2026 (60 days).
-- **Intensive Dissertation Period:** 30 June–28 August 2026 (60 days).
+- **Early Dissertation:** 1 May–29 June 2026.
+- **Intensive Dissertation:** 30 June–28 August 2026.
 
-The analysis compared strength-training frequency, workout duration, workout-specific active calories, and daily active calorie expenditure between the two periods.
-
-The findings were interpreted descriptively, without assuming that academic workload or perceived stress directly caused the observed changes.
+The comparison focused on recorded strength-training behaviour and daily active calorie expenditure.
