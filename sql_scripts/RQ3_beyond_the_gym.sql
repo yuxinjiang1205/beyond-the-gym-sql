@@ -358,3 +358,35 @@ SELECT
     activeEnergyBurned AS daily_calorie_expenditure
 FROM daily_activity_analysis
 WHERE activeEnergyBurned IS NULL;
+
+-- Supplementary Check:
+-- Canada strength-training frequency excluding extended travel periods.
+
+WITH canada_days AS (
+    SELECT
+        dateComponents AS date
+    FROM daily_activity_analysis
+    WHERE dateComponents BETWEEN '2024-09-06' AND '2025-04-22'
+      AND NOT (
+          dateComponents BETWEEN '2024-12-04' AND '2024-12-17'
+          OR dateComponents BETWEEN '2025-04-06' AND '2025-04-22'
+      )
+),
+
+strength_training_days AS (
+    SELECT DISTINCT
+        SUBSTR(startDate, 1, 10) AS date
+    FROM workouts_analysis
+    WHERE workoutActivityType =
+        'HKWorkoutActivityTypeTraditionalStrengthTraining'
+)
+
+SELECT
+    COUNT(*) AS observations,
+    COUNT(st.date) AS strength_training_days,
+    ROUND(
+        COUNT(st.date) * 100.0 / COUNT(*), 2
+    ) AS training_frequency_percentage
+FROM canada_days AS cd
+LEFT JOIN strength_training_days AS st
+    ON cd.date = st.date;
