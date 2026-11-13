@@ -10,7 +10,7 @@
 
 **Beyond the Gym** is my personal data analytics portfolio that investigates my daily activity levels across different life stages in Canada, Taiwan, and Scotland using SQL.
 
-The data used in this project was exported from the Apple Health application, covering the period from 6 September 2024 to 27 October 2026. The project explores the relationships between daily active calorie expenditure and several factors, including strength training, travelling, and different life stages.
+The data used in this project was exported from the Apple Health application, covering the period from 6 September 2024 to 27 October 2026. The project explores the relationships between daily active calorie expenditure and several factors, including strength training, travelling, different life stages, and dissertation periods.
 
 ## 2. Research Questions
 
@@ -71,7 +71,7 @@ SQLite was the main database used throughout this project for data analysis, whi
 
 During the data inspection stage, Python was used to examine the XML structure and identify relevant attributes. After selecting the required variables, two CSV datasets were extracted and filtered to match the study period before being imported into SQLite.
 
-Before conducting the main analysis, data quality checks were performed to identify missing values, duplicate records, date discrepancies, and inconsistent measurement units.
+Before conducting the main analysis, data quality checks were performed to assess missing values, duplicate records, date coverage, and measurement unit consistency.
 
 For RQ1–RQ4, SQL techniques including Common Table Expressions (CTEs), LEFT JOINs, CASE expressions, aggregate functions, and window functions were used to classify observations, compare different groups, and calculate descriptive statistics.
 
