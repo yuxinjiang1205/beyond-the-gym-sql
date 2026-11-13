@@ -1,6 +1,6 @@
 # RQ2: Extended Travel vs Non-Travel Periods — Daily Active Calorie Expenditure on Non-Gym Days
 
-**Version:** 2  
+**Version:** 3  
 **Author:** Peter Jiang (Yuxin Jiang)  
 **Last Updated:** 13/11/2026  
 
@@ -222,13 +222,15 @@ The mean exceeded the median by approximately **46.50 kcal**. This suggests that
 
 ## 5. Discussion
 
-The descriptive findings support the proposed hypothesis that Non-Gym Days during extended travel periods are associated with higher daily active calorie expenditure. Both mean and median comparisons showed higher activity levels during the selected travel periods. The mean difference was approximately **99.18 kcal per day (22.5%)**, while the median difference was approximately **147.47 kcal (37.5%)**.
+## 5. Discussion
 
-One possible explanation is that extended travel periods involve greater amounts of movement throughout the day, particularly through walking and sightseeing. For example, exploring unfamiliar cities, visiting attractions, and moving between destinations may contribute to higher daily active calorie expenditure without structured gym sessions. Travel-related activity patterns may therefore differ from ordinary daily routines, even when gym attendance is absent in both groups.
+The results support my original hypothesis that Non-Gym Days during extended travel periods are associated with higher daily active calorie expenditure. Both mean and median values were higher during the selected travel periods. The mean difference was approximately **99.18 kcal per day (22.5%)**, while the median difference was approximately **147.47 kcal (37.5%)**.
 
-The findings also complement RQ1. RQ1 established that Gym Days generally recorded higher daily active calorie expenditure than Non-Gym Days. RQ2 extends this investigation by examining differences **within the Non-Gym group**, demonstrating that daily active calorie expenditure can vary substantially according to the activity context.
+One possible explanation is that travelling often involves more walking and sightseeing. From my personal experience, exploring cities, visiting attractions, and moving between destinations required frequent walking. These activities may help explain why daily active calories were higher during the selected travel periods. However, the analysis cannot determine how much each activity contributed to the difference.
 
-In particular, the higher mean and median recorded during extended travel periods suggest that everyday activities outside structured strength training can make a substantial contribution to daily physical activity. These findings reinforce the central theme of *Beyond the Gym*: understanding physical activity through a broader range of daily experiences rather than gym attendance alone.
+RQ1 showed that Gym Days generally recorded higher daily active calorie expenditure than Non-Gym Days. RQ2 examined the Non-Gym group further and found that daily active calories also differed between the selected travel periods and other days without recorded strength training.
+
+Overall, these results suggest although gym attendance remains an important part of my routine, days without recorded strength training can still involve relatively high daily active calorie expenditure.
 
 ---
 
@@ -236,43 +238,37 @@ In particular, the higher mean and median recorded during extended travel period
 
 ### 6.1 Travel Classification Scope
 
-The analysis included three predefined extended travel periods rather than every travel-related activity during the study period. Shorter domestic trips and day trips, including the Liverpool trip in October 2026 and sightseeing activities in Stirling and Edinburgh, were not included in the Travel Day classification.
+This analysis focused on three selected extended travel periods rather than all travel-related activities during the study period. Shorter trips and day trips, such as my Liverpool trip in October 2026 and sightseeing activities in Stirling and Edinburgh, were not included in the Travel Day classification.
 
-Consequently, the Non-Gym Non-Travel group may contain observations involving travel or sightseeing activities outside the selected periods. The findings therefore reflect differences between the **three selected extended travel periods and dates outside those periods**. A future sensitivity analysis could examine whether including shorter trips changes the results.
+Therefore, some Non-Gym Non-Travel Days may still have involved travelling or sightseeing. The findings only reflect the differences between the three selected extended travel periods and other days outside these periods. Including shorter trips in future analysis might provide a more complete picture of travel-related activity patterns.
 
 ### 6.2 Unequal Group Sizes
 
-The analysis included:
+The analysis included two groups:
 
 - **237 Non-Gym Non-Travel Days**
 - **43 Non-Gym Travel Days**
 
-Unequal group sizes do not invalidate the descriptive comparison, and no observations were removed to balance the groups. However, the smaller Travel Group contains fewer observations and represents only three extended travel periods.
+Although the group sizes were different, all available observations were kept for the analysis. The smaller Travel Group also covered only three extended travel periods.
 
-Additionally, observations within the same trip may reflect shared circumstances and should not automatically be treated as independent travel experiences. These considerations would be relevant to any future inferential analysis.
+In addition, days within the same trip may have shared similar circumstances, meaning that these observations were not necessarily independent. These limitations should be considered if further statistical analysis is conducted.
 
 ### 6.3 Missing Data
 
-One daily activity observation was missing during the Italy travel period:
+One daily activity record was missing during the Italy travel period: **14 April 2025**
 
-**14 April 2025**
-
-As a result, the analysis included 44 recorded Travel Days rather than the full 45 calendar days. The missing observation was not imputed.
-
-All available daily active calorie observations were retained without modification, including zero and potentially unusual values identified during the Data Quality Assessment. The missing observation and unusual recorded values may influence the descriptive statistics.
+Therefore, only 44 out of 45 calendar Travel Days had available activity records. The missing observation was not replaced with an estimated value. All available observations were retained without modification.
 
 ### 6.4 Observational Study Design and Generalisability
 
-This analysis is based on my personal Apple Health data, reflecting my individual lifestyle, travel experiences, and physical activity patterns. As the dataset represents only one individual, the findings are specific to my personal circumstances and cannot be generalised to broader populations.
+This analysis was based on my personal Apple Health data, so the findings reflect my individual lifestyle and travel experiences. The results cannot be directly generalised to other people with different daily routines.
 
-Furthermore, the analysis is observational and does not establish a causal relationship between travel and daily active calorie expenditure. No inferential statistical testing was conducted, as the primary objective was to explore and describe patterns within my own activity data.
+Although the analysis showed higher daily active calorie expenditure during the selected travel periods, it could not determine whether travelling directly caused this difference. No statistical significance tests were conducted, as the purpose of RQ2 was to describe activity patterns using my personal data.
 
 ---
 
 ## 7. Conclusion
 
-The analysis found that Non-Gym Days during the three predefined extended travel periods recorded higher daily active calorie expenditure than Non-Gym Days outside those periods. Non-Gym Travel Days recorded approximately **99.18 kcal higher mean daily active calorie expenditure**, representing a difference of **22.5%** compared with Non-Gym Non-Travel Days.
+RQ2 showed that Non-Gym Days during the three selected extended travel periods recorded higher daily active calorie expenditure than other Non-Gym Days. The mean daily active calories were approximately **22.5% higher**, while the median was **37.5% higher**, supporting my original hypothesis.
 
-The median comparison supported the same pattern. The Travel Group recorded a median of **541.09 kcal**, compared with **393.62 kcal** for the Non-Travel Group, representing a difference of approximately **147.47 kcal (37.5%)**. Both measures of central tendency support the primary hypothesis that Non-Gym Days during the selected extended travel periods were associated with higher daily active calorie expenditure.
-
-The findings are consistent with the possibility that everyday movement during travel contributes to daily active calorie expenditure, even without recorded strength-training sessions. Overall, RQ2 extends the findings of RQ1 by demonstrating that differences in activity context are associated with meaningful variations in daily active calories, even among days without recorded gym activity. This provides further insight into the broader purpose of *Beyond the Gym*: examining how physical activity is distributed across different aspects of everyday life.
+Although the analysis could not determine which activities contributed to these differences, the results showed that days without recorded strength training could still have relatively high daily active calorie expenditure. Together with RQ1, these findings made me realise that gym attendance alone could not fully reflect my overall daily activity levels.
