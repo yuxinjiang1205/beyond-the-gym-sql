@@ -1,6 +1,6 @@
 # RQ1: Gym Days vs Non-Gym Days — Daily Active Calorie Expenditure
 
-**Version:** 3   
+**Version:** 4   
 **Author:** Peter Jiang (Yuxin Jiang)   
 **Last Updated:** 13/11/2026  
 
@@ -182,20 +182,15 @@ These observations indicate that high-activity Non-Gym Days were not evenly dist
 
 ## 5. Discussion
 
-The findings support the primary hypothesis that Gym Days are associated with higher daily active calorie expenditure. Gym Days recorded approximately **41.0% higher mean daily active calories** than Non-Gym Days, and the median comparison demonstrated a similar difference. These findings are consistent with the expectation that days containing structured strength training generally involve higher recorded daily active energy expenditure.
+The findings support the primary hypothesis that Gym Days are associated with higher daily active calorie expenditure. Gym Days recorded approximately **41.0% higher mean daily active calories** than Non-Gym Days, with a similar pattern observed in the median comparison. These results suggest that days with recorded strength training generally involve higher daily active calorie expenditure.
 
-However, the analysis also revealed important differences within the two groups. Gym Days exhibited slightly greater absolute variability, while Non-Gym Days showed greater relative variability. This suggests that daily active calorie expenditure on Non-Gym Days may depend more heavily on other activities and daily circumstances, although the present analysis does not identify the specific contributors to that variation.
+However, the analysis also revealed differences in variability between the two groups. Gym Days showed slightly greater absolute variation, while Non-Gym Days had greater relative variation. Although differences in daily routines and activities may help explain this pattern, the analysis cannot identify the specific factors contributing to the variation.
 
-The high-activity Non-Gym Day analysis provides further context. **60 of the 280 Non-Gym Days (21.43%) exceeded the Gym Day median**, demonstrating that the absence of a recorded strength-training session does not necessarily correspond to low daily active calorie expenditure. Daily activities such as walking, travel, commuting, and other forms of movement may contribute to recorded active calories outside structured exercise sessions.
+The high-activity Non-Gym Day analysis provided another interesting finding. **60 out of 280 Non-Gym Days (21.43%) exceeded the Gym Day median**, showing that the absence of a recorded strength-training session does not necessarily mean low daily active calorie expenditure. Activities such as walking, travelling, commuting, and other forms of movement may contribute to daily active calories outside structured exercise.
 
-This finding is particularly relevant to the motivation behind *Beyond the Gym*. Although gym attendance is an important part of my lifestyle, the results suggest that overall daily activity is influenced by a broader range of experiences.
+Before starting this project, I often assumed that missing a gym session meant having a less active day. However, these results challenged my original assumption and made me realise that gym attendance alone might not fully reflect my daily activity levels.
 
-RQ1 therefore establishes two complementary findings:
-
-- **First, Gym Days generally recorded higher daily active calorie expenditure.**
-- **Second, a meaningful proportion of Non-Gym Days still achieved activity levels exceeding those of a typical Gym Day.**
-
-Together, these findings provide the foundation for RQ2, which examines whether extended travel periods are associated with higher daily active calorie expenditure on days without recorded strength training.
+Although some Non-Gym Days recorded relatively high daily active calories, the analysis could not identify which activities contributed to these results. RQ2 explores this further by comparing daily active calorie expenditure between Non-Gym Days during selected extended travel periods and other Non-Gym Days.
 
 ---
 
@@ -211,20 +206,18 @@ The analysis included **479 Gym Days** and **280 Non-Gym Days**. These differenc
 
 ### 6.3 Data Quality
 
-The analysis period contained one missing daily activity observation, dated **14 April 2025**. Two Non-Gym Days also contained zero recorded daily active calories. The original recorded values were retained without modification, and the missing observation was not imputed. These recording characteristics may influence the calculated descriptive statistics. The data quality findings and treatment decisions are documented separately in the Data Quality Assessment.
+The analysis period contained one missing daily activity observation, dated **14 April 2025**. Two Non-Gym Days also contained zero recorded daily active calories. The original recorded values were retained without modification, and the missing observation was not imputed. These recording characteristics may influence the calculated descriptive statistics.
 
 ### 6.4 Observational Study Design
 
-The analysis uses observational Apple Health data collected from a single individual. Daily active calorie expenditure reflects a combination of structured exercise and other activities throughout the day. The comparison does not isolate the energy expenditure attributable specifically to strength-training sessions or control for all differences in daily routines. Accordingly, the findings describe observed associations between recorded gym activity and daily active calorie expenditure rather than establishing a direct causal effect.
-
-No statistical significance test was conducted on the full RQ1 dataset. The results are therefore presented as descriptive findings specific to the available personal data.
+This analysis was based on my personal Apple Health data. Daily active calories included both strength training and other everyday activities. Therefore, I could not determine how much each activity contributed to the differences in daily active calorie expenditure. In addition, daily routines varied, and these differences were not controlled for in the analysis. As a result, the findings show a relationship between recorded strength training and daily active calories, but they cannot establish a causal relationship.
 
 ---
 
 ## 7. Conclusion
 
-RQ1 investigated whether Gym Days recorded higher daily active calorie expenditure than Non-Gym Days. The analysis found that Gym Days recorded approximately **186.71 kcal higher mean daily active calorie expenditure**, representing an increase of **41.0%** compared with Non-Gym Days. The median comparison supported the same pattern, with Gym Days recording a median of **584.23 kcal**, compared with **415.73 kcal** for Non-Gym Days.
+RQ1 showed that Gym Days generally recorded higher daily active calorie expenditure than Non-Gym Days. The mean daily active calories were approximately **41.0% higher on Gym Days**, which supports my original hypothesis. However, **60 out of 280 Non-Gym Days (21.43%) exceeded the Gym Day median**. This finding challenged my assumption that days without recorded strength training necessarily had lower activity levels.
 
-Variability analysis revealed that Gym Days exhibited slightly greater absolute dispersion, while Non-Gym Days demonstrated greater relative dispersion. An additional analysis identified **60 Non-Gym Days (21.43%)** with daily active calorie expenditure exceeding the Gym Day median. These findings suggest that although recorded strength-training activity is associated with higher daily active calorie expenditure, substantial physical activity can also occur on days without gym attendance.
+The analysis also showed differences in variability between the two groups. Gym Days had slightly greater absolute variation, while Non-Gym Days had greater relative variation. Although this analysis could not identify which activities contributed to these differences, the results suggest that gym attendance alone is not enough to understand my overall daily activity levels.
 
-Overall, RQ1 supports the primary research hypothesis while highlighting the importance of considering physical activity beyond structured exercise. The findings establish a foundation for subsequent research questions exploring how travel, daily routines, and different life circumstances relate to recorded active calorie expenditure.
+RQ2 explores this further by comparing daily active calorie expenditure between Non-Gym Days during selected extended travel periods and other Non-Gym Days.
