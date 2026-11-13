@@ -228,7 +228,7 @@ One possible explanation is that travelling often involves more walking and sigh
 
 RQ1 showed that Gym Days generally recorded higher daily active calorie expenditure than Non-Gym Days. RQ2 examined the Non-Gym group further and found that daily active calories also differed between the selected travel periods and other days without recorded strength training.
 
-Overall, these results suggest although gym attendance remains an important part of my routine, days without recorded strength training can still involve relatively high daily active calorie expenditure.
+Overall, these results suggest that although gym attendance remains an important part of my routine, days without recorded strength training can still involve relatively high daily active calorie expenditure.
 
 ---
 
