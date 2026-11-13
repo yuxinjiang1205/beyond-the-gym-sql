@@ -2,8 +2,7 @@
 
 **Project:** Beyond the Gym — SQL Data Analytics Portfolio  
 **Author:** Peter Jiang (Yuxin Jiang)  
-**Status:** Background Documentation — Pre-Analysis  
-**Updated:** 11 November 2026
+**Last Updated:** 13/11/2026  
 
 ## 1. Research Question and Purpose
 
