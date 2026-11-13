@@ -1,6 +1,6 @@
 # Beyond the Gym: A SQL-Based Analysis of Personal Physical Activity Across Different Life Stages
 
-> **Project Proposal Version 3 - 12/11/2026**
+> **Project Proposal Version 4 - 13/11/2026**
 
 | Project detail | Description |
 |---|---|
@@ -22,7 +22,7 @@ The dataset spans three distinct periods of my life in Canada, Taiwan, and Scotl
 
 Using SQL as the primary analytical tool, *Beyond the Gym* aims to investigate whether my perceptions of physical activity align with the patterns observed in my personal data. The purpose is not to diminish the broader benefits of regular exercise, but to develop a more evidence-based understanding of how physical activity extends beyond structured gym sessions.
 
-## 2. Primary Research Question
+## 2. Research Questions
 For this project, I propose the following 4 research questions:
 ### RQ1 — Gym Attendance and Daily Active Calories
 
@@ -38,7 +38,7 @@ The analysis will investigate:
 
 **Hypothesis:** Gym days are associated with higher average daily active calorie expenditure than non-gym days.
 
-Gym attendance will initially be identified using Apple Health's Traditional Strength Training records, subject to validation of recording habits and data coverage. 
+Gym Days will be identified using Apple Health's Traditional Strength Training records as an indicator of gym attendance rather than independently verified gym visits.
 **Note: I signed up for the gym in Canada approximately on the 28th of September, 2024, so the records after on will be used for analysis.**
 
 ### RQ2 — Travel and Physical Activity
@@ -51,7 +51,7 @@ Three travel periods will be considered:
 - **6–22 April 2025:** Italy.
 - **25 September–8 October 2026:** London and other travel with family.
 
-The analysis will primarily compare daily active calories, with daily step counts included if reliable data can be prepared.
+The analysis will compare daily active calorie expenditure between Non-Gym Days during the three selected extended travel periods and other Non-Gym Days.
 
 ### RQ3 — Physical Activity Across Different Life Stages
 
@@ -189,9 +189,9 @@ A simple Bayesian analysis may be added if it provides meaningful insight beyond
 
 The final portfolio will contain:
 
-1. A documented SQLite database and SQL analysis scripts.
+1. SQLite-based SQL analysis scripts and supporting documentation.
 2. Clearly defined research questions and methodology.
-3. Tables and visualisations presenting the main findings.
+3. Tables presenting the main findings.
 4. A discussion of findings, limitations, and practical insights.
 5. A GitHub repository demonstrating the analytical workflow.
 
