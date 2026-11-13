@@ -1,6 +1,6 @@
 # Beyond the Gym — README
 
-**Version:** 1  
+**Version:** 2  
 **Author:** Peter Jiang (Yuxin Jiang)  
 **Last Updated:** 13/11/2026  
 
@@ -101,3 +101,7 @@ The repository is organised into the following folders and files:
 - **[`sql_scripts/`](sql_scripts/)** — Contains SQL scripts for data quality checks and analyses of RQ1–RQ4.
 - **[`reports/`](reports/)** — Contains data inspection, data quality assessment, research documentation, and the [Overall Project Conclusion](reports/project_overall_conclusion.md).
 - **[`project_proposal.md`](project_proposal.md)** — Outlines the research background, objectives, and study design.
+
+---
+
+**Data Privacy:** The original Apple Health XML file, extracted CSV datasets, and SQLite database are not included in this repository due to personal data privacy considerations. The SQL scripts and research documentation are provided to demonstrate the analytical process and findings.
