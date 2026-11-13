@@ -222,8 +222,6 @@ The mean exceeded the median by approximately **46.50 kcal**. This suggests that
 
 ## 5. Discussion
 
-## 5. Discussion
-
 The results support my original hypothesis that Non-Gym Days during extended travel periods are associated with higher daily active calorie expenditure. Both mean and median values were higher during the selected travel periods. The mean difference was approximately **99.18 kcal per day (22.5%)**, while the median difference was approximately **147.47 kcal (37.5%)**.
 
 One possible explanation is that travelling often involves more walking and sightseeing. From my personal experience, exploring cities, visiting attractions, and moving between destinations required frequent walking. These activities may help explain why daily active calories were higher during the selected travel periods. However, the analysis cannot determine how much each activity contributed to the difference.
