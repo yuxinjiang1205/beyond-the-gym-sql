@@ -1,8 +1,8 @@
 # RQ4: Early vs Intensive Dissertation Periods — Strength-Training Behaviour and Daily Physical Activity
 
-**Version:** 1 
+**Version:** 1  
 **Author:** Peter Jiang (Yuxin Jiang)  
-**Analysis Status:** Completed  
+**Last Updated:** 13/11/2026  
 
 ---
 
